@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Bodoni Bd BT';
+    src: url('BodoniBT-Bold.woff2') format('woff2'),
+        url('BodoniBT-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bodoni BdCn BT';
+    src: url('BodoniBT-BoldCondensed.woff2') format('woff2'),
+        url('BodoniBT-BoldCondensed.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bodoni';
+    src: url('Bodoni-BoldItalic.woff2') format('woff2'),
+        url('Bodoni-BoldItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bodoni';
+    src: url('Bodoni-Italic.woff2') format('woff2'),
+        url('Bodoni-Italic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bodoni';
+    src: url('BodoniCyrillic.woff2') format('woff2'),
+        url('BodoniCyrillic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bodoni';
+    src: url('Bodoni.woff2') format('woff2'),
+        url('Bodoni.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bodoni';
+    src: url('Bodoni-Bold.woff2') format('woff2'),
+        url('Bodoni-Bold.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+

@@ -1,0 +1,23 @@
+.dt-buttons{
+  float:right;
+  margin-right: 50px
+}
+.buttons-copy{
+   display:none;
+}
+.buttons-csv{
+   display:none;
+}
+.buttons-print{
+   display:none;
+}
+.dt-buttons .dt-button{
+   background:#aa78fb;
+}
+ label.error {
+      color: #dc3545;
+      font-size: 14px;
+ }
+#example23_filter{
+  margin-right: 14px;
+}

@@ -1,0 +1,16 @@
+resources/views/dashboard/customers/details.blade.php
+
+app/Http/Controllers/Accountadmin/ArrangementTypeController.php
+app/Http/Controllers/Accountadmin/FloralArrangementController.php
+resources/views/accountadmin/arrangement-type/add.blade.php
+resources/views/accountadmin/arrangement-type/index.blade.php
+resources/views/accountadmin/floral-arrangements/add.blade.php
+resources/views/accountadmin/floral-arrangements/index.blade.php
+routes/web.php
+
+
+ALTER TABLE `kbt_arrangement_type` ADD `price` DECIMAL(15,2) NULL DEFAULT '0' AFTER `description`;
+
+ALTER TABLE `kbt_floral_arrangements` ADD `pk_product_sub_category` BIGINT(20) NULL AFTER `pk_product_category`;
+
+ALTER TABLE `kbt_floral_arrangements` CHANGE `pk_floral_arrangements` `pk_floral_arrangements` BIGINT(20) UNSIGNED NOT NULL AUTO_INCREMENT, add PRIMARY KEY (`pk_floral_arrangements`);
